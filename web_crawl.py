@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 TopChamp=[[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]]
 
 #url은 ASCII 코드값만 사용하므로 quote 함수로 인코딩 해주어야함
-Myname=parse.quote(input("input : "))
+Myname=parse.quote(input("소환사명을 입력해주세요! : "))
 
 #동일하게 적용되는 url부분
 urlbase="https://www.op.gg/summoner/champions/userName="
